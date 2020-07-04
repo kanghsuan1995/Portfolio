@@ -1,0 +1,173 @@
+
+body{
+  margin:0;
+  padding:0;
+  background-color:white;
+  overflow:hidden
+}
+
+.contact-container{
+  width: 100%;
+  height:100%;
+  position:relative;
+  top:120px;
+}
+
+.vertically-center{
+  position: relative;
+  top:4rem;
+}
+
+.phone, .address, .mail{
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:normal;
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding: 30px 20px;
+  margin: 10px 40px;
+  width: 100%;
+}
+
+hr{
+  border-top:2px solid black;
+  width:80px;
+  margin-left:60px;
+  margin-top:120px;
+}
+
+.track {
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.k-style{
+  font-family: 'Major Mono Display', monospace;
+}
+
+header{
+  top:40px;
+  position:fixed;
+  z-index: 1;
+  left:50%;
+  transform:translate(-50%,0);
+  width:70vw;
+}
+
+.header-name{
+  margin-right:50px;
+}
+
+header ul li{
+  background-color:none;
+  list-style:none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:800;
+  font-size:20px;
+  display:inline;
+  margin:0 20px;
+  letter-spacing:2px;
+  padding:2px;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+header ul li:hover{
+  text-decoration:line-through;
+}
+
+@media only screen and (min-width: 1100px){
+body{
+  margin:0;
+  padding:0;
+  background-color:white;
+  overflow:hidden
+}
+
+.contact-container{
+  width: 100%;
+  height:100%;
+  position:relative;
+  top:120px;
+}
+
+.vertically-center{
+  position: relative;
+  top:4rem;
+}
+
+.phone, .address, .mail{
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:normal;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding: 30px 20px;
+  margin: 10px 40px;
+  width: 100%;
+}
+
+hr{
+  border-top:2px solid black;
+  width:80px;
+  margin-left:60px;
+  margin-top:120px;
+}
+
+.track {
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 8s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.k-style{
+  font-family: 'Major Mono Display', monospace;
+}
+
+header{
+  margin:40px 0;
+  position:fixed;
+  left:0;
+  transform:translate(0,0);
+  width:70vw;
+}
+
+.header-name{
+  margin-right:50px;
+}
+
+header ul li{
+  background-color:none;
+  list-style:none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:800;
+  font-size:14px;
+  display:inline;
+  margin:0 20px;
+  letter-spacing:2px;
+  padding:2px;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+header ul li:hover{
+  text-decoration:line-through;
+}
+}

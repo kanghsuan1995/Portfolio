@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  background-color: white;
+  padding:0;
+}
+
+.main-intro {
+  width: 65%;
+  height: auto;
+  padding: 7.5vh 0 7.5vh 2vw;
+  margin:40px;
+  margin-top: 125px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: rgba(43,88,12,1);
+  margin: 0 0 30px 0;
+}
+
+.full-intro {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
+  letter-spacing:2px;
+  line-height: 25px;
+  font-size: 24px;
+  width:100%;
+}
+
+.skillsets{
+  font-size:20px;
+  color:rgba(255,127,80,1);
+}
+
+.get-in-touch{
+  color:black;
+  text-decoration:underline;
+}
+
+.get-in-touch:hover{
+  color:grey;
+}
+
+.div-2{
+  width:10%;
+  border-top:2px solid black;
+  margin-bottom:80px;
+  margin-top:0;
+}
+
+.k-style{
+  font-family: 'Major Mono Display', monospace;
+}
+
+header{
+  top:40px;
+  position:fixed;
+  z-index: 1;
+  left:50%;
+  transform:translate(-50%,0);
+  width:70vw;
+}
+
+.header-name{
+  margin-right:50px;
+}
+
+header ul li{
+  list-style:none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:800;
+  font-size:20px;
+  display:inline;
+  margin:0 20px;
+  letter-spacing:2px;
+  padding:2px;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+header ul li:hover{
+  text-decoration:line-through;
+}
+
+@media only screen and (min-width: 1100px){
+body {
+  margin: 0;
+  background-color: white;
+  padding:0;
+}
+
+.main-intro {
+  width: 65%;
+  height: auto;
+  padding: 7.5vh 0 7.5vh 2vw;
+  margin:40px;
+  margin-top: 125px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgba(43,88,12,1);
+  margin: 0 0 30px 0;
+}
+
+.full-intro {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
+  letter-spacing:2px;
+  line-height: 25px;
+  font-size: 16px;
+  width:100%;
+}
+
+.techLogo{
+  width:auto;
+  height:50px;
+}
+
+.skillsets-1,.skillsets-2{
+  font-size:20px;
+  color:rgba(255,127,80,1);
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  margin:30px auto;
+}
+
+.skillsets-1 div, .skillsets-2 div{
+  margin:10px;
+  font-size:13px;
+}
+
+.get-in-touch{
+  color:black;
+  text-decoration:underline;
+}
+
+.get-in-touch:hover{
+  color:grey;
+}
+
+.div-2{
+  width:10%;
+  border-top:2px solid black;
+  margin-bottom:80px;
+  margin-top:0;
+}
+
+.k-style{
+  font-family: 'Major Mono Display', monospace;
+}
+
+header{
+  margin:0 0;
+  position:fixed;
+  top:40px;
+  left:0;
+  transform: translate(0,0);
+}
+
+.header-name{
+  margin-right:50px;
+}
+
+header ul li{
+  list-style:none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:800;
+  font-size:14px;
+  display:inline;
+  margin:0 20px;
+  letter-spacing:2px;
+  padding:2px;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+header ul li:hover{
+  text-decoration:line-through;
+}
+}
